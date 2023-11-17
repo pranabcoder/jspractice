@@ -2,6 +2,7 @@ const accountId = 1234;
 let accountEmail = "pranab@gmail.com"
 var accountPassword = "1234";
 accountCity = "Bangalore";
+let accountState;
 
 // Const keyword is used to declare a constant variable which cannot be changed
 // let keyword is used to declare a variable which can be changed
@@ -14,8 +15,8 @@ accountCity = "Bangalore";
 accountEmail = "pranab@hotmail.com"
 accountPassword = "12345";
 accountCity = "Hyderabad";
-console.table([accountId, accountEmail, accountPassword, accountCity])
-//output: [ 1234, 'pranab@hotmail', '12345', 'Hyderabad' ]
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+//output: [ 1234, 'pranab@hotmailcom', '12345', 'Hyderabad', undefined ]
 
 /*
 * Prefer not to use var keyword
