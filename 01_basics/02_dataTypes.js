@@ -9,3 +9,10 @@ let name = "Pranas"; // string
 let age = 25; // number
 let isLogged = true; // boolean
 
+// number -> 2 to power 53
+// bigint
+// string = ""
+// boolean => true/false
+// null => standalone value
+// undefined => value is not assigned
+// symbol => unique identifier
