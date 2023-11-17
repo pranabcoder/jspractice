@@ -9,6 +9,7 @@ let name = "Pranas"; // string
 let age = 25; // number
 let isLogged = true; // boolean
 
+// Primitive data types
 // number -> 2 to power 53
 // bigint
 // string = ""
@@ -16,3 +17,5 @@ let isLogged = true; // boolean
 // null => standalone value
 // undefined => value is not assigned
 // symbol => unique identifier
+
+console.log(typeof "Pranas"); // string
