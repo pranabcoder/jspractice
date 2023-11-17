@@ -22,3 +22,8 @@ console.log(typeof booleanIsLoggedIn); // boolean
 // 0 => false
 // "" => false
 // "abc" => true
+
+let someNumber = 33;
+let stringNumber = someNumber.toString();
+console.log(typeof stringNumber); // string
+console.log(stringNumber); // "33"
