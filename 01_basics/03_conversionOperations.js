@@ -48,6 +48,23 @@ let str3 = str1 + ' ' + str2;
 
 // console.log(1 + "2"); // "12"
 // console.log("1" + 2); // "12"
-console.log("1" + 2 + 2); // "122"
-console.log(1 + 2 + "2"); // "32"
+// console.log("1" + 2 + 2); // "122"
+// console.log(1 + 2 + "2"); // "32"
 
+// console.log((3 + 4) * 5 % 3); // it is not a good practice to write like this
+
+// console.log(true); // true
+// console.log(+ true); // 1
+// console.log(true +);    // SyntaxError: Unexpected token ')'
+
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2; // it is not a good practice to write like this
+
+let gameCounter = 100;
+gameCounter++; // gameCounter = gameCounter + 1;
+console.log(gameCounter); // 101
+
+// link to study more about operators
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+// https://tc39.es/ecma262/#sec-ecmascript-language-expressions
