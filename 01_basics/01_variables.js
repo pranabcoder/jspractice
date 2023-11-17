@@ -16,3 +16,8 @@ accountPassword = "12345";
 accountCity = "Hyderabad";
 console.table([accountId, accountEmail, accountPassword, accountCity])
 //output: [ 1234, 'pranab@hotmail', '12345', 'Hyderabad' ]
+
+/*
+* Prefer not to use var keyword
+* Because of issue in block scope and function scope
+*/
