@@ -19,3 +19,5 @@ let isLogged = true; // boolean
 // symbol => unique identifier
 
 console.log(typeof "Pranas"); // string
+console.log(typeof null); // object
+console.log(typeof undefined); // undefined
