@@ -32,3 +32,25 @@ const myFunction = function (){
 // console.log(typeof isLoggedIn); // boolean
 // console.log(typeof outsideTemp); // object
 
+
+// +++++++++++++++++++++++++++++ Memory allocation +++++++++++++++++++++++++++++
+
+// stack memory: primitive data types
+// heap memory: reference data types
+
+let myYoutubeName = "code with harry";
+let anotherYoutubeName = myYoutubeName;
+anotherYoutubeName = "chai aur code";
+// console.log(myYoutubeName);
+// console.log(anotherYoutubeName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl.com"
+};
+
+let userTwo = userOne;
+console.log("User one actual value  -- >  " + userOne.email);
+console.log("Before changing the value of email  -- >  " + userTwo.email);
+userTwo.email = "user@hotmail.com";
+console.log("After changing the value of email  -- >  " + userTwo.email);
