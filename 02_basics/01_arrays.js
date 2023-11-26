@@ -20,6 +20,15 @@ myArray.push(10); // add an element at the end of the array
 // console.log(myArray.includes(9)); // true -< check if the array contains the value 9
 // console.log(myArray.indexOf(3)); // 2 -< return the index of the value 3
 
-const newArray = myArray.join()
-console.log(myArray);
-console.log(typeof newArray); // string
+// const newArray = myArray.join()
+// console.log(myArray);
+// console.log(typeof newArray); // string
+
+// slice , splice
+console.log("A", myArray);
+const myNewArrayOne = myArray.slice(1, 3); // slice(start, end)
+console.log("B", myNewArrayOne); // [2, 3]
+console.log("Original Array", myArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const myNewArrayTwo = myArray.splice(1, 3);
+console.log("C", myNewArrayTwo); // [2, 3, 4]
+console.log("Original Array", myArray); // [1, 5, 6, 7, 8, 9]
