@@ -45,9 +45,19 @@ const users  = [
     }
 ];
 
-console.log(users[0].name); // John
+// console.log(users[0].name); // John
 // console.log(tinderUser); // { id: '123abc', name: 'John', isLoggedIn: false }
 // console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isLoggedIn' ]
 // console.log(Object.values(tinderUser)); // [ '123abc', 'John', false ]
 // console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'John' ], [ 'isLoggedIn', false ] ]
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+
+// object destructuring - > ES6
+const course = {
+    courseName: "JavaScript",
+    price: 900,
+    courseInstructor: "John Doe",
+};
+
+const {courseInstructor: instructor} = course;
+console.log(instructor); // John Doe
