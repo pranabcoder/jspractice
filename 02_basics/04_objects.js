@@ -53,11 +53,17 @@ const users  = [
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
 
 // object destructuring - > ES6
-const course = {
-    courseName: "JavaScript",
-    price: 900,
-    courseInstructor: "John Doe",
-};
+// const course = {
+//     courseName: "JavaScript",
+//     price: 900,
+//     courseInstructor: "John Doe",
+// };
+//
+// const {courseInstructor: instructor} = course;
+// console.log(instructor); // John Doe
 
-const {courseInstructor: instructor} = course;
-console.log(instructor); // John Doe
+// {
+//     "name": "John Deo",
+//     "courseName": "JavaScript",
+//     "price": "free"
+// }
