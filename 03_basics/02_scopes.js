@@ -30,7 +30,7 @@ if (true) {
     const username = 'John';
     if (username === 'John') {
         const website = " youtube";
-        console.log(username + website);
+        // console.log(username + website);
     }
     // function two(){
     //     const website = "youtube";
@@ -39,4 +39,20 @@ if (true) {
     // two();
     // console.log(website); // ReferenceError: website is not defined
 }
-console.log(username); // ReferenceError: username is not defined
+// console.log(username); // ReferenceError: username is not defined
+
+// ++++++++++++++++++++++  Interesing ++++++++++++++++++++++
+
+// console.log(addOne(5));
+function addOne(value){
+    return value + 1;
+}
+
+// addOne(5); // 6
+
+// console.log(addTwo(5)); // ReferenceError: Cannot access 'addTwo' before initialization
+const addTwo = function(value){
+    return value + 2;
+}
+
+// addTwo(5); // 7
