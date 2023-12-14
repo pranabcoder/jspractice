@@ -38,6 +38,12 @@ let value = null;
 // value = undefined ?? 15;
 // value = null ?? 10 ?? 20;
 value = null ?? undefined ?? 20;
-console.log(value);
+// console.log(value);
+
+// Ternary operator
+// condition ? true : false
+const iceTeaPrice = 100;
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("greater than 80"); // greater than 80
+
 
 
