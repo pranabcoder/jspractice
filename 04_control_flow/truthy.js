@@ -35,7 +35,9 @@ if (Object.keys(emptyObject).length === 0) {
 let value = null;
 // value = 5 ?? 10;
 // value = null ?? 10;
-value = undefined ?? 15;
+// value = undefined ?? 15;
+// value = null ?? 10 ?? 20;
+value = null ?? undefined ?? 20;
 console.log(value);
 
 
