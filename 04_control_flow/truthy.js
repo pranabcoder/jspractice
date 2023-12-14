@@ -26,6 +26,14 @@ if (Object.keys(emptyObject).length === 0) {
   console.log("Object is empty");
 }*/
 
-console.log(false == 0);
-console.log(false == '');
-console.log(0 == '');
+// console.log(false == 0);
+// console.log(false == '');
+// console.log(0 == '');
+
+// Nullish coalescing operator (??): null and undefined
+
+let value = null;
+value = 5 ?? 10;
+console.log(value);
+
+
