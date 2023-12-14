@@ -33,7 +33,9 @@ if (Object.keys(emptyObject).length === 0) {
 // Nullish coalescing operator (??): null and undefined
 
 let value = null;
-value = 5 ?? 10;
+// value = 5 ?? 10;
+// value = null ?? 10;
+value = undefined ?? 15;
 console.log(value);
 
 
