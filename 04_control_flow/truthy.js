@@ -25,3 +25,7 @@ if (emptyArray.length === 0) {
 if (Object.keys(emptyObject).length === 0) {
   console.log("Object is empty");
 }*/
+
+console.log(false == 0);
+console.log(false == '');
+console.log(0 == '');
