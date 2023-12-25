@@ -17,6 +17,42 @@ coding.forEach((item) => {
 
 // coding.forEach(printMessage);
 
-coding.forEach((item, index, arr) => {
-    console.log(item, index, arr);
+// coding.forEach((item, index, arr) => {
+//     console.log(item, index, arr);
+// });
+
+const myCoding  = [
+    {
+        languageName: 'javascript',
+        languageFileName: 'js',
+    },
+    {
+        languageName: 'ruby',
+        languageFileName: 'rb',
+    },
+    {
+        languageName: 'python',
+        languageFileName: 'py',
+    },
+    {
+        languageName: 'php',
+        languageFileName: 'php',
+    },
+    {
+        languageName: 'java',
+        languageFileName: 'java',
+    },
+    {
+        languageName: 'c++',
+        languageFileName: 'cpp',
+    },
+    {
+        languageName: 'c#',
+        languageFileName: 'cs',
+    },
+
+];
+
+myCoding.forEach((item) => {
+    console.log(item.languageName);
 });
