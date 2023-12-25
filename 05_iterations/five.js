@@ -11,8 +11,12 @@ coding.forEach((item) => {
     console.log(item);
 }); */
 
-function printMessage(item) {
-  console.log(item);
-}
+// function printMessage(item) {
+//   console.log(item);
+// }
 
-coding.forEach(printMessage);
+// coding.forEach(printMessage);
+
+coding.forEach((item, index, arr) => {
+    console.log(item, index, arr);
+});
