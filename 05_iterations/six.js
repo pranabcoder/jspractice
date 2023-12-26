@@ -50,7 +50,12 @@ const books = [
 
 const userBooks = books.filter((book) => book.genre === 'History');
 
-console.log(userBooks); // [ { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 }, { title: 'Book Seven', genre: 'History', publish: 1986, edition: 1996 } ] 
+// console.log(userBooks); // [ { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 }, { title: 'Book Seven', genre: 'History', publish: 1986, edition: 1996 } ] 
 
+const userBooksTwo = books.filter((book) => book.publish > 2000);
 
+// console.log(userBooksTwo); // [ { title: 'Book Five', genre: 'Science', publish: 2009, edition: 2014 }, { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 } ]
 
+const userBooksThree = books.filter((book) => book.genre === 'History' && book.publish > 1995);
+
+console.log(userBooksThree); // [ { title: 'Book Five', genre: 'Science', publish: 2009, edition: 2014 }, { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 } ]
