@@ -50,5 +50,7 @@ const books = [
 
 const userBooks = books.filter((book) => book.genre === 'History');
 
-console.log(userBooks);
+console.log(userBooks); // [ { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 }, { title: 'Book Seven', genre: 'History', publish: 1986, edition: 1996 } ] 
+
+
 
