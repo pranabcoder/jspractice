@@ -44,4 +44,11 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  
+// const userBooks = books.filter((book) => {
+//     return book.genre === 'History';
+// });
+
+const userBooks = books.filter((book) => book.genre === 'History');
+
+console.log(userBooks);
+
