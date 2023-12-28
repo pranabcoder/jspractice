@@ -178,10 +178,37 @@
 // });
 
 
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Access the element with the specified QuerySelector
+//     const tempLiList = document.querySelectorAll('li');
+//     tempLiList.forEach((li) => {
+//         li.style.backgroundColor = 'green';
+//     });
+// });
+
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Access the element with the specified QuerySelector
+//     const tempClassCollection = document.getElementsByClassName('list-item');
+//     tempClassCollection.forEach((li) => {
+//         li.style.backgroundColor = 'green';
+//     }); // This will throw an error as tempClassCollection is not an array
+// }); 
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Access the element with the specified QuerySelector
+//     const tempClassCollection = document.getElementsByClassName('list-item');
+//     const myConvertedArray = Array.from(tempClassCollection);
+//     myConvertedArray.forEach((li) => {
+//         li.style.color = 'orange';
+//     }); 
+// }); 
+
+
 document.addEventListener('DOMContentLoaded', function () {
     // Access the element with the specified QuerySelector
-    const tempLiList = document.querySelectorAll('li');
-    tempLiList.forEach((li) => {
-        li.style.backgroundColor = 'green';
+    const tempClassCollection = document.getElementsByClassName('list-item');
+    Array.from(tempClassCollection).forEach((li) => {
+        li.style.color = 'orange';
     });
 });
