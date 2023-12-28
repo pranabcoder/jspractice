@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Dom Learning</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+        }
+        .heading{
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+    <script src="domoperations.js"></script>
 </head>
-<body>
-    <div class="bg-black">
-        <h1 class="heading">Dom Learning on Chai aur Code</h1>
+<body class="bg-black">
+    <div>
+        <h1 id = "title" class="heading">Dom Learning on Chai aur Code <span style="display: none;"> test text</span></h1>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Second</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <label for="password">Password:</label>
+        <input type="password" name="" id="password" placeholder="Enter your password">
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
     </div>
 </body>
 </html>
