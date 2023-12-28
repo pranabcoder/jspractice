@@ -150,11 +150,38 @@
 //     console.log(querySelectorElementCheck);
 // });
 
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Access the element with the specified QuerySelector
+//     const myUnorderedList = document.querySelector('ul');
+//     const turnGreen = myUnorderedList.querySelector('li');
+//     turnGreen.style.backgroundColor = 'green';
+//     turnGreen.style.padding = '10px';
+//     turnGreen.innerText = 'I am green';
+// });
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Access the element with the specified QuerySelector
+//     const tempLiList = document.querySelectorAll('li');
+//     console.log(tempLiList);
+// });
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Access the element with the specified QuerySelector
+//     const tempLiList = document.querySelectorAll('li');
+//     tempLiList[0].style.color = 'green';
+// });
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Access the element with the specified QuerySelector
+//     const tempH1List = document.querySelectorAll('h1');
+//     tempH1List[0].style.color = 'green';
+// });
+
+
 document.addEventListener('DOMContentLoaded', function () {
     // Access the element with the specified QuerySelector
-    const myUnorderedList = document.querySelector('ul');
-    const turnGreen = myUnorderedList.querySelector('li');
-    turnGreen.style.backgroundColor = 'green';
-    turnGreen.style.padding = '10px';
-    turnGreen.innerText = 'I am green';
+    const tempLiList = document.querySelectorAll('li');
+    tempLiList.forEach((li) => {
+        li.style.backgroundColor = 'green';
+    });
 });
