@@ -25,5 +25,19 @@
     addLanguage('Python');
     addLanguage('Java');
     addLanguage('TypeScript');
+
+    // optimize code -- 
+    function addOptionLang(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+    addOptionLang('golang');
+
+    // Edit - 
+    const firstLang = document.querySelector("li:nth-child(2)");
+    const newLi = document.createElement('li');
+    newLi.textContent = "Mojo";
+    firstLang.replaceWith(newLi);
 </script>
 </html>
