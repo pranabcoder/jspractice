@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        .image-box {
+            border: 3px solid #000; /* Black border */
+            padding: 10px; /* Padding around the content */
+            width: 300px; /* Width of the box */
+            text-align: center; /* Centering the text */
+            position: relative; /* For positioning the URL text */
+        }
+
+        .image-box img {
+            max-width: 100%; /* Ensure image fits in the box */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .image-box span {
+            position: absolute; /* Positioning the text */
+            bottom: 10px; /* Position from the bottom */
+            left: 0;
+            width: 100%; /* Full width of the container */
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+            color: #000; /* Text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-box">
+        <img id="previewImage" alt="Description of the image">
+        <span id="displayUrl"></span>
+    </div>
+    <button id="myButton" class="button-class">Get Profile Image</button>
+</body>
+<script src="chaiaurcode.js"></script>
+</html>
