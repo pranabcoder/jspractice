@@ -87,19 +87,19 @@
 
 // consumePromiseFive();
 
-// async function getAllUsers() {
+async function getAllUsers() {
   
-//   try {
-//     const response = await fetch('https://jsonplaceholder.typicode.com/users');
-//     // console.log(response);
-//     const data = await response.json();
-//     console.log(data); 
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    // console.log(response);
+    const data = await response.json();
+    console.log(data); 
+  } catch (error) {
+    console.log(error);
+  }
+}
 
-// getAllUsers();
+getAllUsers();
 
 fetch('https://jsonplaceholder.typicode.com/users')
 .then((response) => {
