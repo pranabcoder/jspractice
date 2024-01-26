@@ -38,3 +38,9 @@ console.log(arrTwo[9]);
 
 // holes are very expensive in js
 
+const arrThree = [1, 2, 3, 4, 5];
+console.log(arrThree[2]);
+
+// SMI > DOUBLE > PACKED
+// H_SMI > H_DOUBLE > H_PACKED
+
