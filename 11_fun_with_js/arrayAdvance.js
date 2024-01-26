@@ -57,3 +57,8 @@ arrFive.push(1); // PACKED_ELEMENTS
 arrFive.push(2); // PACKED_ELEMENTS
 arrFive.push(3); // PACKED_ELEMENTS
 
+const arrSix = [1, 2, 3, 4, 5];
+
+arrSix.push(Infinity); //DOUBLE_ELEMENTS
+
+// for, for-of, forEach loop is preferred
