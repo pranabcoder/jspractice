@@ -44,3 +44,8 @@ console.log(arrThree[2]);
 // SMI > DOUBLE > PACKED
 // H_SMI > H_DOUBLE > H_PACKED
 
+const arrFour = new Array(3);
+
+// Just 3 holes. HOLEY_SMI_ELEMENTS
+
+arrFour[0] = 1; // HOLEY_ELEMENTS
