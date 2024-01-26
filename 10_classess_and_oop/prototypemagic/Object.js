@@ -16,16 +16,21 @@ function createUser(username, score){
     this.score = score;
 }
 
-createUser.prototype.increment = function(){
-    this.score++;
+function CreateUser(username, score){
+    this.username = username;
+    this.score = score;
+}
+
+CreateUser.prototype.increment = function(){
+    return this.score++;
 };
 
-createUser.prototype.printMe = function(){
+CreateUser.prototype.printMe = function(){
     console.log(`Score is ${this.score}`);
 };
 
-const chai = new createUser('chai', 25);
-const tea = new createUser('tea', 250);
+const chai = new CreateUser('chai', 25);
+const tea = new CreateUser('tea', 250);
 
 chai.printMe(); // Score is 25
 
